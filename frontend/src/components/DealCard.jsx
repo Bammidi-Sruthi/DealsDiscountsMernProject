@@ -19,7 +19,7 @@ function DealCard({ deal = {} }) {
     
     // Handle paths that might already include /uploads
     const imagePath = image.startsWith("/uploads") ? image : `/uploads${image.startsWith("/") ? image : `/${image}`}`;
-    return `http://localhost:5000${imagePath}`;
+    return `https://dealsdiscountsmernproject.onrender.com${imagePath}`;
   };
 
   const imageUrl = getImageUrl();

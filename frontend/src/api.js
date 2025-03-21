@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust if your backend is on a different origin
+  baseURL: 'https://dealsdiscountsmernproject.onrender.com/api', // Adjust if your backend is on a different origin
 });
 
 api.interceptors.request.use(config => {
